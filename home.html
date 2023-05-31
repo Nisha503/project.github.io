@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://kit.fontawesome.com/252ccb6170.js" crossorigin="anonymous"></script>
+</head>
+<script type=>
+	 function updateDateTime() {
+      var currentDate = new Date();
+      var dateElement = document.getElementById("date");
+      var timeElement = document.getElementById("time");
+
+      // Format the date
+      var options = { year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+      // Format the time
+      var formattedTime = currentDate.toLocaleTimeString();
+
+      // Update the HTML elements
+      dateElement.innerHTML = formattedDate;
+      timeElement.innerHTML = formattedTime;
+    }
+
+    // Update the date and time every second
+    setInterval(updateDateTime, 1000);
+</script>
+<hearder>
+	<img class="img" src="C:\Users\ktshe\Downloads\Untitled design.jpg">
+	<a style="position: relative; left: 450px; bottom: 100px;" href="about.html">About us</a>
+	<a style="position:relative; bottom:100px; left:460px;" href="ticket.html">Tickets</a>
+	<a style="position:relative; left:470px; bottom:100px;" href="form.html">Form</a>
+	<a style="position:relative; left:460px; bottom: 100px;" href="gallery.html">Gallery</a>
+
+</hearder>
+<body>
+	<h1><marquee>New Year 2023</marquee></h1>
+	<img style="padding-top: 20px; padding-left: 400px;" src="C:\Users\ktshe\Downloads\Happy New Year.jpg" height="400px;" width="400px;">
+ <h4 style="font-family: cursive; color:blue; font-size: 50px;">Current Date and Time</h4>
+ <p>Date: <span id="date"></span></p>
+<p>Time: <span id="time"></span></p>
+	
+        <h2>2023 is for self love </h2>
+        <p>A new year brings not only happiness, it makes us happy with a hope to fulfill our dreams and new beginning of our life.</p>
+        <p>New Year is the time or day at which a new calendar year begins and the calendar's year count increments by one</p>
+        <h4>For copules ladies free. for single 450 per head.. Dont miss it,book your sit now!</h4>
+        <h3>wishing everyone a healthy and prosperous life!</h3>  
+        <h3>venue:gelephu town</h3>  
+        <h3>Time: 11:00pm</h3> 
+        <img style="position:relative; left:150px;" src="C:\Users\ktshe\Downloads\images-removebg-preview.png" height="300px;" width="400px;"> 
+        <img style="position:relative; left: 300px;" src="C:\Users\ktshe\Downloads\png-transparent-party-party-holidays-text-photography-thumbnail-removebg-preview.png" height="400px;" width="400px">
+        <div class="dj">
+    	<p>DJ:KinleyBhai</p>
+    </div>
+
+
+
+ <footer>
+ 	<img style="border-radius: 40px; box-shadow: 2px 2px 2px yellow;" src="C:\Users\ktshe\Downloads\Add a subheading.jpg">
+
+		
+ </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+form {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: lightgray;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=number]{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=email]{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=no.of]{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=buy] {
+background-color: yellow;
+color: black;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+position: relative;
+left: 320px;
+text-align: center;
+}
+
+input[type=buy]:hover {
+background-color: blue;
+}
+a:link, a:visited{
+background-color: black;
+color: white;
+padding: 14px 25px;
+text-align: center;
+display: inline-block;
+margin-left: 100px;
+border-radius: 30px;
+text-decoration: none;
+}
+a:hover, a:active{
+    background-color: yellow;
+    color: black;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: plus 10s infinite;}
+    @keyframes plus{
+   0%{background-image: url('https://e1.pxfuel.com/desktop-wallpaper/970/51/desktop-wallpaper-light-color-gallery-llight-color-background-thumbnail.jpg');}
+   50%{background-color: lightpink;}
+   100%{background-color: lightblue;}
+
+}
+
+
+ h1{
+  text-align: center;
+ }
+ .fa-facebook{
+    color:blue;
+    font-size: 40px;
+    padding: 10px;
+}
+.fa-instagram{
+    color:red;
+    font-size:40px;
+    padding: 10px;
+}
+.fa-whatsapp{
+    color: #00ff00;
+    font-size:40px;
+    padding: 10px;
+}
+.fa-youtube{
+    color: #ff0000;
+    font-size:40px;
+    padding: 10px;
+}
+.nisha{
+ border: 2px solid black;
+  height: 400px;
+}
